@@ -53,7 +53,7 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-right: 5%">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> {{ Auth::user()->name }} <span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> 朱益军 <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li>
                                     <a class="dropdown-item" href="#">
