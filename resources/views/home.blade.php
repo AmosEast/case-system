@@ -13,59 +13,27 @@
     <div id="left-navbar" class="pull-left" style="width: 20%; min-height: 600px; border-right: 3px solid #ffffff;">
         <div id="left-navbar-main" class="sidebar-nav">
             <ul class="nav nav-list collpse">
-                    <li>
-                        <a href="#select-books" class="nav-header" data-toggle="collapse" style="font-size: 1.3em;"><span class="glyphicon glyphicon-pencil"></span> &nbsp;&nbsp;&nbsp;选书模块</a>
-                        <ul id="select-books" class="nav nav-list collapse" style="font-size: 1.1em;">
-                                <li><a href="javascript:void(0)" ><span style="margin-left: 23%;">任务管理</span></a></li>
-                                <li><a href="javascript:void(0)" ><span style="margin-left: 23%;">选书分配</span></a></li>
-                                <li><a href="javascript:void(0)" ><span style="margin-left: 23%;">书籍选择</span></a></li>
-                                <li><a href="javascript:void(0)" ><span style="margin-left: 23%;">选书审核</span></a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#order-books" class="nav-header" data-toggle="collapse" style="font-size: 1.3em;"><span class="glyphicon glyphicon-fire"></span> &nbsp;&nbsp;&nbsp;购书模块</a>
-                        <ul id="order-books" class="nav nav-list collapse" style="font-size: 1.1em;">
-                                <li><a href="javascript:void(0)" ><span style="margin-left: 23%;">教师购书</span></a></li>
-                                <li><a href="javascript:void(0)" ><span style="margin-left: 23%;">学生购书</span></a></li>
-                                <li><a href="javascript:void(0)" ><span style="margin-left: 23%;">班级代购</span></a></li>
-                        </ul>
-                    </li>
                 <li>
-                    <a href="#deliver-books" class="nav-header" data-toggle="collapse" style="font-size: 1.3em;"><span class="glyphicon glyphicon-book"></span> &nbsp;&nbsp;&nbsp;发书模块</a>
-                    <ul id="deliver-books" class="nav nav-list collapse" style="font-size: 1.1em;">
-                        <li><a href="/"><span style="margin-left: 23%;">试试</span></a></li>
-                        <li><a href="/"><span style="margin-left: 23%;">试试</span></a></li>
+                    <a href="#select-books" class="nav-header" data-toggle="collapse" style="font-size: 1.3em;"><span class="glyphicon glyphicon-pencil"></span> &nbsp;&nbsp;&nbsp;案例模块</a>
+                    <ul id="select-books" class="nav nav-list collapse" style="font-size: 1.1em;">
+                        <li><a href="javascript:void(0)" ><span style="margin-left: 23%;">案例管理</span></a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#query-block" class="nav-header" data-toggle="collapse" style="font-size: 1.3em;"><span class="glyphicon glyphicon-search"></span> &nbsp;&nbsp;&nbsp;查询模块</a>
+                    <a href="#query-block" class="nav-header" data-toggle="collapse" style="font-size: 1.3em;"><span class="glyphicon glyphicon-search"></span> &nbsp;&nbsp;&nbsp;检索模块</a>
                     <ul id="query-block" class="nav nav-list collapse" style="font-size: 1.1em;">
-                        <li><a href="javascript:void(0);" ><span style="margin-left: 23%;">选书状态查询</span></a></li>
-                        <li><a href="/"><span style="margin-left: 23%;">订书详情查询</span></a></li><li><a href="/"><span style="margin-left: 23%;">订书详情查询</span></a></li>
-                        <li><a href="/"><span style="margin-left: 23%;">订书数量统计</span></a></li>
-                        <li><a href="/"><span style="margin-left: 23%;">发书状态查询</span></a></li>
-                        <li><a href="/"><span style="margin-left: 23%;">书单数量查询</span></a></li>
+                        <li><a href="/"><span style="margin-left: 23%;">案例检索</span></a></li>
                     </ul>
                 </li>
-                <li>
-                    <a href="#education-manage" class="nav-header" data-toggle="collapse" style="font-size: 1.3em;"><span class="glyphicon glyphicon-briefcase"></span> &nbsp;&nbsp;&nbsp;教务管理</a>
-                    <ul id="education-manage" class="nav nav-list collapse" style="font-size: 1.1em;">
-                        <li><a href="javascript:void(0)" ><span style="margin-left: 23%;">班级管理</span></a></li>
-                        <li><a href="javascript:void(0)" ><span style="margin-left: 23%;">专业管理</span></a></li>
-                        <li><a href="javascript:void(0)" ><span style="margin-left: 23%;">学院管理</span></a></li>
-                        <li><a href="javascript:void(0)" ><span style="margin-left: 23%;">课程管理</span></a></li>
-                        <li><a href="javascript:void(0)" ><span style="margin-left: 23%;">书籍管理</span></a></li>
-                    </ul>
-                </li>
-                    <li>
-                        <a href="#system-manage" class="nav-header" data-toggle="collapse" style="font-size: 1.3em;"><span class="glyphicon glyphicon-cog"></span> &nbsp;&nbsp;&nbsp;系统管理</a>
-                        <ul id="system-manage" class="nav nav-list collapse" style="font-size: 1.1em;">
-                            <li><a href="javascript:void(0)" ><span style="margin-left: 23%;">流程管理</span></a></li>
-                            <li><a href="javascript:void(0)" ><span style="margin-left: 23%;">角色管理</span></a></li>
-                            <li><a href="javascript:void(0)" ><span style="margin-left: 23%;">权限管理</span></a></li>
-                            <li><a href="javascript:void(0)" ><span style="margin-left: 23%;">用户管理</span></a></li>
-                        </ul>
-                    </li>
+{{--                <li>--}}
+{{--                    <a href="#system-manage" class="nav-header" data-toggle="collapse" style="font-size: 1.3em;"><span class="glyphicon glyphicon-cog"></span> &nbsp;&nbsp;&nbsp;系统管理</a>--}}
+{{--                    <ul id="system-manage" class="nav nav-list collapse" style="font-size: 1.1em;">--}}
+{{--                        <li><a href="javascript:void(0)" ><span style="margin-left: 23%;">流程管理</span></a></li>--}}
+{{--                        <li><a href="javascript:void(0)" ><span style="margin-left: 23%;">角色管理</span></a></li>--}}
+{{--                        <li><a href="javascript:void(0)" ><span style="margin-left: 23%;">权限管理</span></a></li>--}}
+{{--                        <li><a href="javascript:void(0)" ><span style="margin-left: 23%;">用户管理</span></a></li>--}}
+{{--                    </ul>--}}
+{{--                </li>--}}
             </ul>
         </div>
     </div>
