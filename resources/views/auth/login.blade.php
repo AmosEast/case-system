@@ -12,7 +12,7 @@
                         @csrf
 
                         <div class="form-group row">
-                            <label for="email" class="col-sm-4 col-form-label text-md-right">{{ __('编  号') }}</label>
+                            <label for="email" class="col-sm-4 col-form-label text-md-right">{{ __('账  号') }}</label>
 
                             <div class="col-md-6">
                                 <input id="unique_id" type="text" class="form-control{{ $errors->has('unique_id') ? ' is-invalid' : '' }}" name="unique_id" value="{{ old('unique_id') }}" required autofocus>
@@ -53,6 +53,9 @@
                             <div class="col-md-8 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('登  陆') }}
+                                </button>
+                                <button type="submit" class="btn btn-success">
+                                    {{ __('注  册') }}
                                 </button>
 
                                 <a class="btn btn-link" href="{{ route('password.request') }}">
