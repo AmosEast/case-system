@@ -22,7 +22,7 @@
                 <li>
                     <a href="#query-block" class="nav-header" data-toggle="collapse" style="font-size: 1.3em;"><span class="glyphicon glyphicon-search"></span> &nbsp;&nbsp;&nbsp;检索模块</a>
                     <ul id="query-block" class="nav nav-list collapse" style="font-size: 1.1em;">
-                        <li><a href="/"><span style="margin-left: 23%;">案例检索</span></a></li>
+                        <li><a href="javascript:void(0)"><span style="margin-left: 23%;">案例检索</span></a></li>
                     </ul>
                 </li>
 {{--                <li>--}}
@@ -39,7 +39,9 @@
     </div>
     <!-- 右边主页面 -->
     <div id="right-main" class="pull-left" style="width:80%;">
-        <iframe id="main-page-iframe" scrolling="yes" width="100%" height="100%" frameborder="0" src="" style="min-height: 600px;"></iframe>
+        <iframe id="main-page-iframe" scrolling="yes" width="100%" height="100%" frameborder="0" src="" style="min-height: 600px;">
+            <div style="padding-left: 0; padding-right: 0; min-height: 600px; background-image: {{ asset('image/background.png') }}"></div>
+        </iframe>
     </div>
     </div>
 @endsection
