@@ -33,6 +33,7 @@ Route::get('/caselist', function () {
     return view('caselist') ->with([
         'error' =>false,
         'msg' =>'',
+        'selectLists' =>[]
     ]);
 });
 
