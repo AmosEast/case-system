@@ -18,25 +18,25 @@
             <div class="panel-body table-responsive">
                 <div class="panel">
                     <div class="panel-body">
-                        <form id="query-caselist-form" method="get" action="{{ route('selectquery.index') }}" class="form-inline">
+                        <form id="query-caselist-form" method="get" action="" class="form-inline">
                             @csrf
                             <div class="form-group">
-                                <label class="sr-only" for="case_id">案例编号</label>
+                                <label for="case_id">案例编号</label>
                                 <input type="text" class="form-control" id="case_id" name="case_id" placeholder="案例编号">
                             </div>
-                            <span>-</span>
+                            <span>&nbsp;&nbsp;</span>
                             <div class="form-group">
-                                <label class="sr-only" for="case_name">案例名称</label>
+                                <label for="case_name">案例名称</label>
                                 <input type="text" class="form-control" id="case_name" name="case_name" placeholder="案例名称">
                             </div>
-                            <span>-</span>
+                            <span>&nbsp;&nbsp;</span>
                             <div class="form-group">
-                                <label class="sr-only" for="case_province">案例省份</label>
+                                <label for="case_province">案例省份</label>
                                 <input type="text" class="form-control" id="case_province" name="case_province" placeholder="案例省份">
                             </div>
-                            <span>-</span>
+                            <span>&nbsp;&nbsp;</span>
                             <div class="form-group">
-                                <label class="sr-only" for="case_mode">案例模式</label>
+                                <label for="case_mode">案例模式</label>
                                 <input type="text" class="form-control" id="case_mode" name="case_mode" placeholder="案例模式">
                             </div>
                             <button type="submit" class="btn btn-primary">&nbsp;搜&nbsp;索&nbsp;</button>
@@ -88,7 +88,7 @@
                         </table>
                     </div>
                     <div align="right">
-                        {{ $selectLists ->appends(['case_id' =>old('case_id'), 'case_name' =>old('case_name'), 'case_province' =>old('case_province'), 'case_mode' =>old('case_mode')]) ->links() }}
+                        {{-- $selectLists ->appends(['case_id' =>old('case_id'), 'case_name' =>old('case_name'), 'case_province' =>old('case_province'), 'case_mode' =>old('case_mode')]) ->links() --}}
                     </div>
                 </div>
             </div>
@@ -100,3 +100,4 @@
     <script type="text/javascript">
     </script>
 @endsection
+
