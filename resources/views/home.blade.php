@@ -39,8 +39,8 @@
     </div>
     <!-- 右边主页面 -->
     <div id="right-main" class="pull-left" style="width:80%;">
-        <iframe id="main-page-iframe" scrolling="yes" width="100%" height="100%" frameborder="0" src="" style="min-height: 600px;">
-            <div style="padding-left: 0; padding-right: 0; min-height: 600px; background-image: {{ asset('image/background.png') }}"></div>
+        <iframe id="main-page-iframe" scrolling="yes" width="100%" height="100%" frameborder="0" src="{{ route('main.index') }}" style="min-height: 600px;">
+
         </iframe>
     </div>
     </div>

@@ -24,5 +24,8 @@ Route::get('/dashboard', function () {
 Route::get('/home', function () {
     return view('home');
 });
+Route::get('/main',function () {
+    return view('main');
+})->name('main.index');
 
 require __DIR__.'/auth.php';
