@@ -30,7 +30,10 @@ Route::get('/main', function () {
 })->name('main.index');
 
 Route::get('/caselist', function () {
-    return view('caselist');
+    return view('caselist') ->with([
+        'error' =>false,
+        'msg' =>'',
+    ]);
 });
 
 require __DIR__.'/auth.php';
