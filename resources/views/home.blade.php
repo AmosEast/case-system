@@ -16,7 +16,7 @@
                 <li>
                     <a href="#select-books" class="nav-header" data-toggle="collapse" style="font-size: 1.3em;"><span class="glyphicon glyphicon-pencil"></span> &nbsp;&nbsp;&nbsp;案例模块</a>
                     <ul id="select-books" class="nav nav-list collapse" style="font-size: 1.1em;">
-                        <li><a href="javascript:void(0)" ><span style="margin-left: 23%;">案例管理</span></a></li>
+                        <li><a href="javascript:void(0)" onclick="changeMainPage('{{ route('caselist.index') }}')"><span style="margin-left: 23%;">案例管理</span></a></li>
                     </ul>
                 </li>
                 <li>

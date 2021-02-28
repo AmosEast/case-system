@@ -35,6 +35,6 @@ Route::get('/caselist', function () {
         'msg' =>'',
         'selectLists' =>[]
     ]);
-});
+})->name('caselist.index');
 
 require __DIR__.'/auth.php';
