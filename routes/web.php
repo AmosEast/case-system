@@ -24,8 +24,13 @@ Route::get('/dashboard', function () {
 Route::get('/home', function () {
     return view('home');
 });
-Route::get('/main',function () {
+
+Route::get('/main', function () {
     return view('main');
 })->name('main.index');
+
+Route::get('/caselist', function () {
+    return view('caselist');
+});
 
 require __DIR__.'/auth.php';
