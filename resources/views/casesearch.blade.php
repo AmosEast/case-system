@@ -8,7 +8,7 @@
         <div class="panel-body table-responsive">
             <div class="panel">
                 <div class="panel-body">
-                    <div id="left-navbar" class="pull-left" style="width: 100%; min-height: 600px; border-right: 3px solid #ffffff;">
+                    <div id="left-navbar" class="pull-left" style="width: 100%;">
                         <div id="left-navbar-main" class="sidebar-nav">
                             <form id="query-caselist-form" method="get" action="" class="form-inline">
                                 @csrf
