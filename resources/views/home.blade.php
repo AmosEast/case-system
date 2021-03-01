@@ -22,7 +22,7 @@
                 <li>
                     <a href="#query-block" class="nav-header" data-toggle="collapse" style="font-size: 1.3em;"><span class="glyphicon glyphicon-search"></span> &nbsp;&nbsp;&nbsp;检索模块</a>
                     <ul id="query-block" class="nav nav-list collapse" style="font-size: 1.1em;">
-                        <li><a href="javascript:void(0)"><span style="margin-left: 23%;">案例检索</span></a></li>
+                        <li><a href="javascript:void(0)" onclick="changeMainPage('{{ route('casesearch.index') }}')"><span style="margin-left: 23%;">案例检索</span></a></li>
                     </ul>
                 </li>
 {{--                <li>--}}

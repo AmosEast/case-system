@@ -37,4 +37,12 @@ Route::get('/caselist', function () {
     ]);
 })->name('caselist.index');
 
+Route::get('/casesearch', function () {
+    return view('casesearch') ->with([
+        'error' =>false,
+        'msg' =>'',
+        'selectLists' =>[]
+    ]);
+})->name('casesearch.index');
+
 require __DIR__.'/auth.php';
