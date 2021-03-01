@@ -6,42 +6,46 @@
             <h3>案例检索</h3>
         </div>
         <div class="panel-body table-responsive">
-            <div id="left-navbar" class="pull-left" style="width: 100%; min-height: 600px; border-right: 3px solid #ffffff;">
-                <div id="left-navbar-main" class="sidebar-nav">
-                    <form id="query-caselist-form" method="get" action="" class="form-inline">
-                        @csrf
-                        <ul class="nav nav-list collpse">
-                            <li>
-                                <a href="#select-books" class="nav-header" data-toggle="collapse" style="font-size: 1.3em;"><span class="glyphicon glyphicon-pencil"></span> &nbsp;&nbsp;&nbsp;案例模块</a>
-                                <ul id="select-books" class="nav nav-list collapse" style="font-size: 1.1em;">
-                                    <div class="form-group">
-                                        <label for="case_id">案例编号</label>
-                                        <input type="text" class="form-control" id="case_id" name="case_id" placeholder="案例编号">
-                                    </div>
-                                    <span>&nbsp;&nbsp;</span>
-                                    <div class="form-group">
-                                        <label for="case_name">案例名称</label>
-                                        <input type="text" class="form-control" id="case_name" name="case_name" placeholder="案例名称">
-                                    </div>
-                                    <span>&nbsp;&nbsp;</span>
-                                    <div class="form-group">
-                                        <label for="case_province">案例省份</label>
-                                        <input type="text" class="form-control" id="case_province" name="case_province" placeholder="案例省份">
-                                    </div>
-                                    <span>&nbsp;&nbsp;</span>
-                                    <div class="form-group">
-                                        <label for="case_mode">案例模式</label>
-                                        <input type="text" class="form-control" id="case_mode" name="case_mode" placeholder="案例模式">
-                                    </div>
+            <div class="panel">
+                <div class="panel-body">
+                    <div id="left-navbar" class="pull-left" style="width: 100%; min-height: 600px; border-right: 3px solid #ffffff;">
+                        <div id="left-navbar-main" class="sidebar-nav">
+                            <form id="query-caselist-form" method="get" action="" class="form-inline">
+                                @csrf
+                                <ul class="nav nav-list collpse">
+                                    <li>
+                                        <a href="#select-books" class="nav-header" data-toggle="collapse" style="font-size: 1.3em;"><span class="glyphicon glyphicon-pencil"></span> &nbsp;&nbsp;&nbsp;案例模块</a>
+                                        <ul id="select-books" class="nav nav-list collapse" style="font-size: 1.1em;">
+                                            <div class="form-group">
+                                                <label for="case_id">案例编号</label>
+                                                <input type="text" class="form-control" id="case_id" name="case_id" placeholder="案例编号">
+                                            </div>
+                                            <span>&nbsp;&nbsp;</span>
+                                            <div class="form-group">
+                                                <label for="case_name">案例名称</label>
+                                                <input type="text" class="form-control" id="case_name" name="case_name" placeholder="案例名称">
+                                            </div>
+                                            <span>&nbsp;&nbsp;</span>
+                                            <div class="form-group">
+                                                <label for="case_province">案例省份</label>
+                                                <input type="text" class="form-control" id="case_province" name="case_province" placeholder="案例省份">
+                                            </div>
+                                            <span>&nbsp;&nbsp;</span>
+                                            <div class="form-group">
+                                                <label for="case_mode">案例模式</label>
+                                                <input type="text" class="form-control" id="case_mode" name="case_mode" placeholder="案例模式">
+                                            </div>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#query-block" class="nav-header" data-toggle="collapse" style="font-size: 1.3em;"><span class="glyphicon glyphicon-search"></span> &nbsp;&nbsp;&nbsp;检索模块</a>
+                                    </li>
                                 </ul>
-                            </li>
-                            <li>
-                                <a href="#query-block" class="nav-header" data-toggle="collapse" style="font-size: 1.3em;"><span class="glyphicon glyphicon-search"></span> &nbsp;&nbsp;&nbsp;检索模块</a>
-                            </li>
-                        </ul>
-                        <button type="submit" class="btn btn-primary">&nbsp;搜&nbsp;索&nbsp;</button>
-                        <a href="javascript:void(0);" class="btn btn-warning btn-sm" onclick="popIframeWithCloseFunc('添加案例', '', '675px', '535px', clickXFunc)">添加案例</a>
-                    </form>
+                                <button type="submit" class="btn btn-primary">&nbsp;搜&nbsp;索&nbsp;</button>
+                                <a href="javascript:void(0);" class="btn btn-warning btn-sm" onclick="popIframeWithCloseFunc('添加案例', '', '675px', '535px', clickXFunc)">添加案例</a>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="panel">
