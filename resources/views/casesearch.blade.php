@@ -1,15 +1,4 @@
 @extends('layouts.baseFrame')
-@section('css-text-part')
-    <style>
-        .from-group-inline-block {
-            display: inline-block;
-        }
-        .form-control-inline-block {
-            display: inline-block;
-            width: auto;
-        }
-    </style>
-@endsection
 @section('content')
     {{--当前案例列表 --}}
     <div id="list-casesearch-div" class="panel panel-success" style="width: 100%;">
@@ -21,7 +10,7 @@
                 <div class="panel-body">
                     <div id="left-navbar" class="pull-left" style="width: 100%;">
                         <div id="left-navbar-main" class="sidebar-nav">
-                            <form id="query-caselist-form" method="get" action="" class="form-horizontal">
+                            <form id="query-caselist-form" method="get" action="" class="form-inline">
                                 @csrf
                                 <ul class="nav nav-list">
                                     <li>
