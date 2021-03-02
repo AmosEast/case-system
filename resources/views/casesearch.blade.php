@@ -1,4 +1,15 @@
 @extends('layouts.baseFrame')
+@section('css-text-part')
+    <style>
+        .from-group-inline-block {
+            display: inline-block;
+        }
+        .form-control-inline-block {
+            display: inline-block;
+            width: auto;
+        }
+    </style>
+@endsection
 @section('content')
     {{--当前案例列表 --}}
     <div id="list-casesearch-div" class="panel panel-success" style="width: 100%;">
@@ -10,7 +21,7 @@
                 <div class="panel-body">
                     <div id="left-navbar" class="pull-left" style="width: 100%;">
                         <div id="left-navbar-main" class="sidebar-nav">
-                            <form id="query-caselist-form" method="get" action="" class="form-inline">
+                            <form id="query-caselist-form" method="get" action="" class="form-horizontal">
                                 @csrf
                                 <ul class="nav nav-list">
                                     <li>
@@ -218,7 +229,7 @@
                                         <a href="#case-weight" class="nav-header" data-toggle="collapse" style="font-size: 1.3em; padding-left: 0;">权重输入<span class="glyphicon glyphicon-collapse-down"></span></a>
                                         <ul id="case-weight" class="nav nav-list collapse">
                                             <!--生产要素-->
-                                            <div class="raw">
+                                            <div class="form-group">
                                                 <div class="col-md-2">
                                                     <div class="form-group">
                                                         <label for="production_factors_weight">生产要素</label><br/>
@@ -279,7 +290,7 @@
                                             </div>
                                             <br/>
                                             <!--市场需求-->
-                                            <div class="raw">
+                                            <div class="form-group">
                                                 <div class="col-md-2">
                                                     <div class="form-group">
                                                         <label for="market_demand_weight">市场需求</label><br/>
@@ -301,7 +312,7 @@
                                             </div>
                                             <br/>
                                             <!--支撑产业-->
-                                            <div class="raw">
+                                            <div class="form-group">
                                                 <div class="col-md-2">
                                                     <div class="form-group">
                                                         <label for="supporting_industry_weight">支撑产业</label><br/>
@@ -331,7 +342,7 @@
                                             </div>
                                             <br/>
                                             <!--企业发展-->
-                                            <div class="raw">
+                                            <div class="form-group">
                                                 <div class="col-md-2">
                                                     <div class="form-group">
                                                         <label for="enterprise_development_weight">企业发展</label><br/>
@@ -357,7 +368,7 @@
                                             </div>
                                             <br/>
                                             <!--机遇-->
-                                            <div class="raw">
+                                            <div class="form-group">
                                                 <div class="col-md-2">
                                                     <div class="form-group">
                                                         <label for="chance_weight">机遇</label><br/>
@@ -388,7 +399,7 @@
                                             </div>
                                             <br/>
                                             <!--政府-->
-                                            <div class="raw">
+                                            <div class="form-group">
                                                 <div class="col-md-2">
                                                     <div class="form-group">
                                                         <label for="government_weight">政府</label><br/>
