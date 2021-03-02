@@ -221,7 +221,7 @@
                                             <div class="raw">
                                                 <div class="col-md-2">
                                                     <div class="form-group">
-                                                        <label for="production_factors_weight">生产要素</label>
+                                                        <label for="production_factors_weight">生产要素</label><br/>
                                                         <input type="text" class="form-control" id="production_factors_weight" name="production_factors_weight">
                                                     </div>
                                                 </div>
@@ -281,7 +281,7 @@
                                             <div class="raw">
                                                 <div class="col-md-2">
                                                     <div class="form-group">
-                                                        <label for="market_demand_weight">市场需求</label>
+                                                        <label for="market_demand_weight">市场需求</label><br/>
                                                         <input type="text" class="form-control" id="market_demand_weight" name="market_demand_weight">
 
                                                     </div>
@@ -302,7 +302,7 @@
                                             <div class="raw">
                                                 <div class="col-md-2">
                                                     <div class="form-group">
-                                                        <label for="supporting_industry_weight">支撑产业</label>
+                                                        <label for="supporting_industry_weight">支撑产业</label><br/>
                                                         <input type="text" class="form-control" id="supporting_industry_weight" name="supporting_industry_weight">
                                                     </div>
                                                 </div>
@@ -331,7 +331,7 @@
                                             <div class="raw">
                                                 <div class="col-md-2">
                                                     <div class="form-group">
-                                                        <label for="enterprise_development_weight">企业发展</label>
+                                                        <label for="enterprise_development_weight">企业发展</label><br/>
                                                         <input type="text" class="form-control" id="enterprise_development_weight" name="enterprise_development_weight">
                                                     </div>
                                                 </div>
@@ -356,7 +356,7 @@
                                             <div class="raw">
                                                 <div class="col-md-2">
                                                     <div class="form-group">
-                                                        <label for="chance_weight">机遇</label>
+                                                        <label for="chance_weight">机遇</label><br/>
                                                         <input type="text" class="form-control" id="chance_weight" name="chance_weight">
                                                     </div>
                                                 </div>
@@ -386,7 +386,7 @@
                                             <div class="raw">
                                                 <div class="col-md-2">
                                                     <div class="form-group">
-                                                        <label for="government_weight">政府</label>
+                                                        <label for="government_weight">政府</label><br/>
                                                         <input type="text" class="form-control" id="government_weight" name="government_weight">
                                                     </div>
                                                 </div>
