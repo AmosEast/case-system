@@ -277,6 +277,7 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                            <br/>
                                             <!--市场需求-->
                                             <div class="raw">
                                                 <div class="col-md-2">
@@ -298,6 +299,7 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                            <br/>
                                             <!--支撑产业-->
                                             <div class="raw">
                                                 <div class="col-md-2">
@@ -327,6 +329,7 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                            <br/>
                                             <!--企业发展-->
                                             <div class="raw">
                                                 <div class="col-md-2">
@@ -352,6 +355,7 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                            <br/>
                                             <!--机遇-->
                                             <div class="raw">
                                                 <div class="col-md-2">
@@ -382,6 +386,7 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                            <br/>
                                             <!--政府-->
                                             <div class="raw">
                                                 <div class="col-md-2">
