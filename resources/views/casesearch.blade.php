@@ -230,47 +230,38 @@
                                                         <label for="special_industry_weight" style="width:60px">特色产业</label>
                                                         <input type="text" class="form-control" id="special_industry_weight" name="special_industry_weight">
                                                     </div>
-                                                    <span>&nbsp;&nbsp;</span>
                                                     <div class="form-group col-md-4" style="margin: 8px 0">
                                                         <label for="local_people_weight" style="width:60px">常住人口</label>
                                                         <input type="text" class="form-control" id="local_people_weight" name="local_people_weight">
                                                     </div>
-                                                    <span>&nbsp;&nbsp;</span>
                                                     <div class="form-group col-md-4" style="margin: 8px 0">
                                                         <label for="location_weight" style="width:60px">区位</label>
                                                         <input type="text" class="form-control" id="location_weight" name="location_weight">
                                                     </div>
-                                                    <span>&nbsp;&nbsp;</span>
                                                     <div class="form-group col-md-4" style="margin: 8px 0">
                                                         <label for="area_weight" style="width:60px">面积</label>
                                                         <input type="text" class="form-control" id="area_weight" name="area_weight">
                                                     </div>
-                                                    <span>&nbsp;&nbsp;</span>
                                                     <div class="form-group col-md-4" style="margin: 8px 0">
                                                         <label for="infrastructure_weight" style="width:60px">基础设施</label>
                                                         <input type="text" class="form-control" id="infrastructure_weight" name="infrastructure_weight">
                                                     </div>
-                                                    <span>&nbsp;&nbsp;</span>
                                                     <div class="form-group col-md-4" style="margin: 8px 0">
                                                         <label for="temperature" style="width:60px">温度</label>
                                                         <input type="text" class="form-control" id="temperature_weight" name="temperature_weight">
                                                     </div>
-                                                    <span>&nbsp;&nbsp;</span>
                                                     <div class="form-group col-md-4" style="margin: 8px 0">
                                                         <label for="air_quality_weight" style="width:60px">空气质量</label>
                                                         <input type="text" class="form-control" id="air_quality_weight" name="air_quality_weight">
                                                     </div>
-                                                    <span>&nbsp;&nbsp;</span>
                                                     <div class="form-group col-md-4" style="margin: 8px 0">
                                                         <label for="landforms_weight" style="width:60px">地貌</label>
                                                         <input type="text" class="form-control" id="landforms_weight" name="landforms_weight">
                                                     </div>
-                                                    <span>&nbsp;&nbsp;</span>
                                                     <div class="form-group col-md-4" style="margin: 8px 0">
                                                         <label for="precipitation_weight" style="width:60px">降水</label>
                                                         <input type="text" class="form-control" id="precipitation_weight" name="precipitation_weight">
                                                     </div>
-                                                    <span>&nbsp;&nbsp;</span>
                                                     <div class="form-group col-md-4" style="margin: 8px 0">
                                                         <label for="local_sights_weight" style="width:60px">风景名胜</label>
                                                         <input type="text" class="form-control" id="local_sights_weight" name="local_sights_weight">
@@ -288,12 +279,11 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-md-12" style="padding: 10px 40px">
-                                                    <div class="form-group col-md-6" style="margin: 8px 0">
+                                                    <div class="form-group col-md-5" style="margin: 8px 0">
                                                         <label for="economy_weight" >经济规模</label>
                                                         <input type="text" class="form-control" id="econom_weighty" name="economy_weight">
                                                     </div>
-                                                    <span>&nbsp;&nbsp;</span>
-                                                    <div class="form-group col-md-6" style="margin: 8px 0">
+                                                    <div class="form-group col-md-5" style="margin: 8px 0">
                                                         <label for="consumption_level_weight">城乡居民人均消费支出</label>
                                                         <input type="text" class="form-control" id="consumption_level_weight" name="consumption_level_weight">
                                                     </div>
@@ -309,21 +299,19 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-md-12" style="padding: 10px 40px">
-                                                    <div class="form-group col-md-4" style="margin: 8px 0">
+                                                    <div class="form-group col-md-5" style="margin: 8px 0">
                                                         <label for="fir_industry_proportion_weight">第一产业占比</label>
                                                         <input type="text" class="form-control" id="fir_industry_proportion_weight" name="fir_industry_proportion_weight">
                                                     </div>
-                                                    <span>&nbsp;&nbsp;</span>
-                                                    <div class="form-group col-md-4"  style="margin: 8px 0">
+                                                    <div class="form-group col-md-5"  style="margin: 8px 0">
                                                         <label for="sec_industry_proportion_weight">第二产业占比</label>
                                                         <input type="text" class="form-control" id="sec_industry_proportion_weight" name="sec_industry_proportion_weight">
                                                     </div>
-                                                    <span>&nbsp;&nbsp;</span>
-                                                    <div class="form-group col-md-4" style="margin: 8px 0">
+                                                    <div class="form-group col-md-5" style="margin: 8px 0">
                                                         <label for="thr_industry_proportion_weight">第三产业占比</label>
                                                         <input type="text" class="form-control" id="thr_industry_proportion_weight" name="thr_industry_proportion_weight">
                                                     </div>
-                                                    <div class="form-group col-md-4" style="margin: 8px 0">
+                                                    <div class="form-group col-md-5" style="margin: 8px 0">
                                                         <label for="infrastructure_2_weight">基础设施</label>
                                                         <input type="text" class="form-control" id="infrastructure_2_weight" name="infrastructure_2_weight">
                                                     </div>
@@ -334,22 +322,20 @@
                                             <div class="form-group" style="border: 1px solid #ccc;padding: 10px  15px;border-radius: 5px;margin-bottom:20px;"">
                                                 <div class="col-md-12">
                                                     <div class="form-group col-md-12">
-                                                        <label for="enterprise_development_weight">企业发展</label><br/>
+                                                        <label for="enterprise_development_weight">企业发展</label>
                                                         <input type="text" class="form-control" id="enterprise_development_weight" name="enterprise_development_weight">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-12" style="padding: 10px 40px">
-                                                    <div class="form-group col-md-4" style="margin: 8px 0">
+                                                    <div class="form-group col-md-5" style="margin: 8px 0">
                                                         <label for="big_enterprise_density_weight" >规模以上企业密度</label>
                                                         <input type="text" class="form-control" id="big_enterprise_density_weight" name="big_enterprise_density_weight">
                                                     </div>
-                                                    <span>&nbsp;&nbsp;</span>
-                                                    <div class="form-group col-md-4" style="margin: 8px 0">
+                                                    <div class="form-group col-md-5" style="margin: 8px 0">
                                                         <label for="enterprise_density_weight" >企业密度</label>
                                                         <input type="text" class="form-control" id="enterprise_density_weight" name="enterprise_density_weight">
                                                     </div>
-                                                    <span>&nbsp;&nbsp;</span>
-                                                    <div class="form-group col-md-4" style="margin: 8px 0">
+                                                    <div class="form-group col-md-5" style="margin: 8px 0">
                                                         <label for="education_service_weight" >科教文化相关服务</label>
                                                         <input type="text" class="form-control" id="education_service_weight" name="education_service_weight">
                                                     </div>
@@ -360,27 +346,24 @@
                                             <div class="form-group" style="border: 1px solid #ccc;padding: 10px  15px;border-radius: 5px;margin-bottom:20px;"">
                                                 <div class="col-md-12">
                                                     <div class="form-group col-md-12">
-                                                        <label for="chance_weight">机遇</label><br/>
+                                                        <label for="chance_weight">机遇</label>
                                                         <input type="text" class="form-control" id="chance_weight" name="chance_weight">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-12" style="padding: 10px 40px">
-                                                    <div class="form-group col-md-4" style="margin: 8px 0">
+                                                    <div class="form-group col-md-5" style="margin: 8px 0">
                                                         <label for="municipal_government_distance_weight">距市政府距离</label>
                                                         <input type="text" class="form-control" id="municipal_government_distance_weight" name="municipal_government_distance_weight">
                                                     </div>
-                                                    <span>&nbsp;&nbsp;</span>
-                                                    <div class="form-group col-md-4" style="margin: 8px 0">
+                                                    <div class="form-group col-md-5" style="margin: 8px 0">
                                                         <label for="town_government_distance_weight">距镇政府距离</label>
                                                         <input type="text" class="form-control" id="town_government_distance_weight" name="town_government_distance_weight">
                                                     </div>
-                                                    <span>&nbsp;&nbsp;</span>
-                                                    <div class="form-group col-md-4" style="margin: 8px 0">
+                                                    <div class="form-group col-md-5" style="margin: 8px 0">
                                                         <label for="average_education_age_weight">人均受教育年龄</label>
                                                         <input type="text" class="form-control" id="average_education_age_weight" name="average_education_age_weight">
                                                     </div>
-                                                    <span>&nbsp;&nbsp;</span>
-                                                    <div class="form-group col-md-4" style="margin: 8px 0">
+                                                    <div class="form-group col-md-5" style="margin: 8px 0">
                                                         <label for="information_dissemination_weight">信息传播</label>
                                                         <input type="text" class="form-control" id="information_dissemination_weight" name="information_dissemination_weight">
                                                     </div>
@@ -391,17 +374,16 @@
                                             <div class="form-group " style="border: 1px solid #ccc;padding: 10px  15px;border-radius: 5px;margin-bottom:20px;"">
                                                 <div class="col-md-12">
                                                     <div class="form-group col-md-12">
-                                                        <label for="government_weight">政府</label><br/>
+                                                        <label for="government_weight">政府</label>
                                                         <input type="text" class="form-control" id="government_weight" name="government_weight">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-12" style="padding: 10px 40px">
-                                                    <div class="form-group  col-md-4" style="margin: 8px 0">
+                                                    <div class="form-group  col-md-5" style="margin: 8px 0">
                                                         <label for="committees_density_weight">乡镇村委会密度</label>
                                                         <input type="text" class="form-control" id="committees_density_weight" name="committees_density_weight">
                                                     </div>
-                                                    <span>&nbsp;&nbsp;</span>
-                                                    <div class="form-group  col-md-4" style="margin: 8px 0">
+                                                    <div class="form-group  col-md-5" style="margin: 8px 0">
                                                         <label for="policies_number_weight">相关政策数</label>
                                                         <input type="text" class="form-control" id="policies_number_weight" name="policies_number_weight">
                                                     </div>
@@ -483,4 +465,6 @@
             window.location.reload();
         }
     </script>
+@endsection
+t>
 @endsection
