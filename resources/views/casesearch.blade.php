@@ -270,7 +270,7 @@
                                             </div>
                                             <br/>
                                             <!--市场需求-->
-                                            <div class="form-group" style="border: 1px solid #ccc;padding: 10px  15px;border-radius: 5px;margin-bottom:20px;"">
+                                            <div class="form-group" style="border: 1px solid #ccc;padding: 10px  15px;border-radius: 5px;margin-bottom:20px;">
                                                 <div class="col-md-12">
                                                     <div class="form-group col-md-12">
                                                         <label for="market_demand_weight">市场需求</label>
@@ -291,7 +291,7 @@
                                             </div>
                                             <br/>
                                             <!--支撑产业-->
-                                            <div class="form-group" style="border: 1px solid #ccc;padding: 10px  15px;border-radius: 5px;margin-bottom:20px;"">
+                                            <div class="form-group" style="border: 1px solid #ccc;padding: 10px  15px;border-radius: 5px;margin-bottom:20px;">
                                                 <div class="col-md-12" >
                                                     <div class="form-group col-md-12">
                                                         <label for="supporting_industry_weight">支撑产业</label>
@@ -319,7 +319,7 @@
                                             </div>
                                             <br/>
                                             <!--企业发展-->
-                                            <div class="form-group" style="border: 1px solid #ccc;padding: 10px  15px;border-radius: 5px;margin-bottom:20px;"">
+                                            <div class="form-group" style="border: 1px solid #ccc;padding: 10px  15px;border-radius: 5px;margin-bottom:20px;">
                                                 <div class="col-md-12">
                                                     <div class="form-group col-md-12">
                                                         <label for="enterprise_development_weight">企业发展</label>
@@ -343,7 +343,7 @@
                                             </div>
                                             <br/>
                                             <!--机遇-->
-                                            <div class="form-group" style="border: 1px solid #ccc;padding: 10px  15px;border-radius: 5px;margin-bottom:20px;"">
+                                            <div class="form-group" style="border: 1px solid #ccc;padding: 10px  15px;border-radius: 5px;margin-bottom:20px;">
                                                 <div class="col-md-12">
                                                     <div class="form-group col-md-12">
                                                         <label for="chance_weight">机遇</label>
@@ -371,7 +371,7 @@
                                             </div>
                                             <br/>
                                             <!--政府-->
-                                            <div class="form-group " style="border: 1px solid #ccc;padding: 10px  15px;border-radius: 5px;margin-bottom:20px;"">
+                                            <div class="form-group " style="border: 1px solid #ccc;padding: 10px  15px;border-radius: 5px;margin-bottom:20px;">
                                                 <div class="col-md-12">
                                                     <div class="form-group col-md-12">
                                                         <label for="government_weight">政府</label>
@@ -465,6 +465,4 @@
             window.location.reload();
         }
     </script>
-@endsection
-t>
 @endsection
