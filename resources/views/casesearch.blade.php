@@ -21,10 +21,10 @@
                                                     <div>
                                                         <label for="case_mode">请选择模式</label>
                                                         <select name="case_mode" id="case_mode" class="form-control">
-                                                            <option value="1">模式一</option>
-                                                            <option value="2">模式二</option>
-                                                            <option value="3">模式三</option>
-                                                            <option value="4">模式四</option>
+                                                            <option value="1">产业链延伸型</option>
+                                                            <option value="2">产业功能拓展型</option>
+                                                            <option value="3">企业带动型</option>
+                                                            <option value="4">电商引领型</option>
                                                         </select>
                                                     </div>
                                                 </div>
@@ -386,6 +386,20 @@
                                                     <div class="form-group  col-md-5" style="margin: 8px 0">
                                                         <label for="policies_number_weight">相关政策数</label>
                                                         <input type="text" class="form-control" id="policies_number_weight" name="policies_number_weight">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#case-threshold" class="nav-header" data-toggle="collapse" style="font-size: 1.3em; padding-left: 0;">阙值输入<span class="glyphicon glyphicon-collapse-down"></span></a>
+                                        <ul id="case-threshold" class="nav nav-list collapse">
+                                            <!--阙值-->
+                                            <div class="form-group "style="border: 1px solid #ccc;padding: 10px  15px;border-radius: 5px;margin-bottom:20px;">
+                                                <div class="col-md-12">
+                                                    <div class="form-group col-md-12">
+                                                        <label for="threshold">阙值</label>
+                                                        <input type="text" class="form-control" id="threshold" name="threshold">
                                                     </div>
                                                 </div>
                                             </div>

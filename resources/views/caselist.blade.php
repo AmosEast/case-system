@@ -39,8 +39,13 @@
                 <div class="panel-body table-responsive">
                     <table id="list-case-table" class="table table-striped table-hover">
                         <tr>
-                            <th>#</th><th>任务名称</th><th>年级</th><th>学院名称</th><th>专业名称</th><th>课程名称</th><th>教材类书籍</th><th>教参类书籍</th><th>负责教师</th><th>审核状态</th>
+                            <th>案例编号</th><th>案例名称</th><th>案例地点</th><th>案例称号</th><th>简要信息</th><th>操作</th>
                         </tr>
+                        <td>1</td><td>测试</td><td>测试</td><td>测试</td><td>非常非常棒</td>
+                        <td>
+                            <input class="btn btn-warning" type="button" value="修改">
+                            <input class="btn btn-error" type="button" value="删除">
+                        </td>
                         {{--                            @if(!empty($selectLists))--}}
                         {{--                                @foreach($selectLists as $selectList)--}}
                         {{--                                    <tr>--}}
