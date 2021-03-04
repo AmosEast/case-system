@@ -35,178 +35,178 @@
                                         <a href="#case-attribute" class="nav-header" data-toggle="collapse" style="font-size: 1.3em; padding-left: 0;">属性输入<span class="glyphicon glyphicon-collapse-down"></span></a>
                                         <ul id="case-attribute" class="nav nav-list collapse">
                                             <!--生产要素-->
-                                            <div class="raw">
-                                                <div class="col-md-2">
-                                                    <div class="form-group">
+                                            <div class="form-group "style="border: 1px solid #ccc;padding: 10px  15px;border-radius: 5px;margin-bottom:20px;width: 100%;">
+                                                <div class="col-md-12">
+                                                    <div class="form-group col-md-12">
                                                         <label>生产要素</label>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-10">
-                                                    <div class="form-group">
+                                                <div class="col-md-12 " style="padding: 10px 40px">
+                                                    <div class="form-group col-md-4" style="margin: 8px 0">
                                                         <label for="special_industry">特色产业</label>
                                                         <input type="text" class="form-control" id="special_industry" name="special_industry">
                                                     </div>
                                                     <span>&nbsp;&nbsp;</span>
-                                                    <div class="form-group">
+                                                    <div class="form-group col-md-4" style="margin: 8px 0">
                                                         <label for="local_people">常住人口</label>
                                                         <input type="text" class="form-control" id="local_people" name="local_people">
                                                     </div>
                                                     <span>&nbsp;&nbsp;</span>
-                                                    <div class="form-group">
+                                                    <div class="form-group col-md-4" style="margin: 8px 0">
                                                         <label for="location">区位</label>
                                                         <input type="text" class="form-control" id="location" name="location">
                                                     </div>
                                                     <span>&nbsp;&nbsp;</span>
-                                                    <div class="form-group">
+                                                    <div class="form-group col-md-4" style="margin: 8px 0">
                                                         <label for="area">面积</label>
                                                         <input type="text" class="form-control" id="area" name="area">
                                                     </div>
                                                     <span>&nbsp;&nbsp;</span>
-                                                    <div class="form-group">
+                                                    <div class="form-group col-md-4" style="margin: 8px 0">
                                                         <label for="infrastructure">基础设施</label>
                                                         <input type="text" class="form-control" id="infrastructure" name="infrastructure">
                                                     </div>
                                                     <span>&nbsp;&nbsp;</span>
-                                                    <div class="form-group">
+                                                    <div class="form-group col-md-4" style="margin: 8px 0">
                                                         <label for="temperature">温度</label>
                                                         <input type="text" class="form-control" id="temperature" name="temperature">
                                                     </div>
                                                     <span>&nbsp;&nbsp;</span>
-                                                    <div class="form-group">
+                                                    <div class="form-group col-md-4" style="margin: 8px 0">
                                                         <label for="air_quality">空气质量</label>
                                                         <input type="text" class="form-control" id="air_quality" name="air_quality">
                                                     </div>
                                                     <span>&nbsp;&nbsp;</span>
-                                                    <div class="form-group">
+                                                    <div class="form-group col-md-4" style="margin: 8px 0">
                                                         <label for="landforms">地貌</label>
                                                         <input type="text" class="form-control" id="landforms" name="landforms">
                                                     </div>
                                                     <span>&nbsp;&nbsp;</span>
-                                                    <div class="form-group">
+                                                    <div class="form-group col-md-4" style="margin: 8px 0">
                                                         <label for="precipitation">降水</label>
                                                         <input type="text" class="form-control" id="precipitation" name="precipitation">
                                                     </div>
                                                     <span>&nbsp;&nbsp;</span>
-                                                    <div class="form-group">
+                                                    <div class="form-group col-md-4" style="margin: 8px 0">
                                                         <label for="local_sights">风景名胜</label>
                                                         <input type="text" class="form-control" id="local_sights" name="local_sights">
                                                     </div>
                                                 </div>
                                             </div>
                                             <!--市场需求-->
-                                            <div class="raw">
-                                                <div class="col-md-2">
-                                                    <div class="form-group">
+                                            <div class="form-group "style="border: 1px solid #ccc;padding: 10px  15px;border-radius: 5px;margin-bottom:20px;width: 100%;">
+                                                <div class="col-md-12">
+                                                    <div class="form-group col-md-12">
                                                         <label>市场需求</label>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-10">
-                                                    <div class="form-group">
+                                                <div class="col-md-12 " style="padding: 10px 40px">
+                                                    <div class="form-group col-md-5" style="margin: 8px 0">
                                                         <label for="economy">经济规模</label>
                                                         <input type="text" class="form-control" id="economy" name="economy">
                                                     </div>
                                                     <span>&nbsp;&nbsp;</span>
-                                                    <div class="form-group">
+                                                    <div class="form-group col-md-5" style="margin: 8px 0">
                                                         <label for="consumption_level">城乡居民人均消费支出</label>
                                                         <input type="text" class="form-control" id="consumption_level" name="consumption_level">
                                                     </div>
                                                 </div>
                                             </div>
                                             <!--支撑产业-->
-                                            <div class="raw">
-                                                <div class="col-md-2">
-                                                    <div class="form-group">
+                                            <div class="form-group "style="border: 1px solid #ccc;padding: 10px  15px;border-radius: 5px;margin-bottom:20px;width: 100%;">
+                                                <div class="col-md-12">
+                                                    <div class="form-group col-md-12">
                                                         <label>支撑产业</label>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-10">
-                                                    <div class="form-group">
+                                                <div class="col-md-12" style="padding: 10px 40px">
+                                                    <div class="form-group col-md-5" style="margin: 8px 0">
                                                         <label for="fir_industry_proportion">第一产业占比</label>
                                                         <input type="text" class="form-control" id="fir_industry_proportion" name="fir_industry_proportion">
                                                     </div>
                                                     <span>&nbsp;&nbsp;</span>
-                                                    <div class="form-group">
+                                                    <div class="form-group col-md-5" style="margin: 8px 0">
                                                         <label for="sec_industry_proportion">第二产业占比</label>
                                                         <input type="text" class="form-control" id="sec_industry_proportion" name="sec_industry_proportion">
                                                     </div>
                                                     <span>&nbsp;&nbsp;</span>
-                                                    <div class="form-group">
+                                                    <div class="form-group col-md-5" style="margin: 8px 0">
                                                         <label for="thr_industry_proportion">第三产业占比</label>
                                                         <input type="text" class="form-control" id="thr_industry_proportion" name="thr_industry_proportion">
                                                     </div>
-                                                    <div class="form-group">
+                                                    <div class="form-group col-md-5" style="margin: 8px 0">
                                                         <label for="infrastructure_2">基础设施</label>
                                                         <input type="text" class="form-control" id="infrastructure_2" name="infrastructure_2">
                                                     </div>
                                                 </div>
                                             </div>
                                             <!--企业发展-->
-                                            <div class="raw">
-                                                <div class="col-md-2">
-                                                    <div class="form-group">
+                                            <div class="form-group "style="border: 1px solid #ccc;padding: 10px  15px;border-radius: 5px;margin-bottom:20px;width: 100%;">
+                                                <div class="col-md-12">
+                                                    <div class="form-group col-md-12">
                                                         <label>企业发展</label>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-10">
-                                                    <div class="form-group">
+                                                <div class="col-md-12" style="padding: 10px 40px">
+                                                    <div class="form-group col-md-5" style="margin: 8px 0">
                                                         <label for="big_enterprise_density">规模以上企业密度</label>
                                                         <input type="text" class="form-control" id="big_enterprise_density" name="big_enterprise_density">
                                                     </div>
                                                     <span>&nbsp;&nbsp;</span>
-                                                    <div class="form-group">
+                                                    <div class="form-group col-md-5" style="margin: 8px 0">
                                                         <label for="enterprise_density">企业密度</label>
                                                         <input type="text" class="form-control" id="enterprise_density" name="enterprise_density">
                                                     </div>
                                                     <span>&nbsp;&nbsp;</span>
-                                                    <div class="form-group">
+                                                    <div class="form-group col-md-5" style="margin: 8px 0">
                                                         <label for="education_service">科教文化相关服务</label>
                                                         <input type="text" class="form-control" id="education_service" name="education_service">
                                                     </div>
                                                 </div>
                                             </div>
                                             <!--机遇-->
-                                            <div class="raw">
-                                                <div class="col-md-2">
-                                                    <div class="form-group">
+                                            <div class="form-group "style="border: 1px solid #ccc;padding: 10px  15px;border-radius: 5px;margin-bottom:20px;width: 100%;">
+                                                <div class="col-md-12">
+                                                    <div class="form-group col-md-12">
                                                         <label>机遇</label>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-10">
-                                                    <div class="form-group">
+                                                <div class="col-md-12" style="padding: 10px 40px">
+                                                    <div class="form-group col-md-5" style="margin: 8px 0">
                                                         <label for="municipal_government_distance">距市政府距离</label>
                                                         <input type="text" class="form-control" id="municipal_government_distance" name="municipal_government_distance">
                                                     </div>
                                                     <span>&nbsp;&nbsp;</span>
-                                                    <div class="form-group">
+                                                    <div class="form-group col-md-5" style="margin: 8px 0">
                                                         <label for="town_government_distance">距镇政府距离</label>
                                                         <input type="text" class="form-control" id="town_government_distance" name="town_government_distance">
                                                     </div>
                                                     <span>&nbsp;&nbsp;</span>
-                                                    <div class="form-group">
+                                                    <div class="form-group col-md-5" style="margin: 8px 0">
                                                         <label for="average_education_age">人均受教育年龄</label>
                                                         <input type="text" class="form-control" id="average_education_age" name="average_education_age">
                                                     </div>
                                                     <span>&nbsp;&nbsp;</span>
-                                                    <div class="form-group">
+                                                    <div class="form-group col-md-5" style="margin: 8px 0">
                                                         <label for="information_dissemination">信息传播</label>
                                                         <input type="text" class="form-control" id="information_dissemination" name="information_dissemination">
                                                     </div>
                                                 </div>
                                             </div>
                                             <!--政府-->
-                                            <div class="raw">
-                                                <div class="col-md-2">
-                                                    <div class="form-group">
+                                            <div class="form-group "style="border: 1px solid #ccc;padding: 10px  15px;border-radius: 5px;margin-bottom:20px;width: 100%;">
+                                                <div class="col-md-12">
+                                                    <div class="form-group col-md-12">
                                                         <label>政府</label>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-10">
-                                                    <div class="form-group">
+                                                <div class="col-md-12" style="padding: 10px 40px">
+                                                    <div class="form-group col-md-5" style="margin: 8px 0">
                                                         <label for="committees_density">乡镇村委会密度</label>
                                                         <input type="text" class="form-control" id="committees_density" name="committees_density">
                                                     </div>
                                                     <span>&nbsp;&nbsp;</span>
-                                                    <div class="form-group">
+                                                    <div class="form-group col-md-5" style="margin: 8px 0">
                                                         <label for="policies_number">相关政策数</label>
                                                         <input type="text" class="form-control" id="policies_number" name="policies_number">
                                                     </div>
@@ -218,7 +218,7 @@
                                         <a href="#case-weight" class="nav-header" data-toggle="collapse" style="font-size: 1.3em; padding-left: 0;">权重输入<span class="glyphicon glyphicon-collapse-down"></span></a>
                                         <ul id="case-weight" class="nav nav-list collapse">
                                             <!--生产要素-->
-                                            <div class="form-group "style="border: 1px solid #ccc;padding: 10px  15px;border-radius: 5px;margin-bottom:20px;">
+                                            <div class="form-group "style="border: 1px solid #ccc;padding: 10px  15px;border-radius: 5px;margin-bottom:20px;width: 100%;">
                                                 <div class="col-md-12">
                                                     <div class="form-group col-md-12">
                                                         <label for="production_factors_weight">生产要素</label>
@@ -270,7 +270,7 @@
                                             </div>
                                             <br/>
                                             <!--市场需求-->
-                                            <div class="form-group" style="border: 1px solid #ccc;padding: 10px  15px;border-radius: 5px;margin-bottom:20px;">
+                                            <div class="form-group "style="border: 1px solid #ccc;padding: 10px  15px;border-radius: 5px;margin-bottom:20px;width: 100%;">
                                                 <div class="col-md-12">
                                                     <div class="form-group col-md-12">
                                                         <label for="market_demand_weight">市场需求</label>
@@ -291,7 +291,7 @@
                                             </div>
                                             <br/>
                                             <!--支撑产业-->
-                                            <div class="form-group" style="border: 1px solid #ccc;padding: 10px  15px;border-radius: 5px;margin-bottom:20px;">
+                                            <div class="form-group "style="border: 1px solid #ccc;padding: 10px  15px;border-radius: 5px;margin-bottom:20px;width: 100%;">
                                                 <div class="col-md-12" >
                                                     <div class="form-group col-md-12">
                                                         <label for="supporting_industry_weight">支撑产业</label>
@@ -319,7 +319,7 @@
                                             </div>
                                             <br/>
                                             <!--企业发展-->
-                                            <div class="form-group" style="border: 1px solid #ccc;padding: 10px  15px;border-radius: 5px;margin-bottom:20px;">
+                                            <div class="form-group "style="border: 1px solid #ccc;padding: 10px  15px;border-radius: 5px;margin-bottom:20px;width: 100%;">
                                                 <div class="col-md-12">
                                                     <div class="form-group col-md-12">
                                                         <label for="enterprise_development_weight">企业发展</label>
@@ -343,7 +343,7 @@
                                             </div>
                                             <br/>
                                             <!--机遇-->
-                                            <div class="form-group" style="border: 1px solid #ccc;padding: 10px  15px;border-radius: 5px;margin-bottom:20px;">
+                                            <div class="form-group "style="border: 1px solid #ccc;padding: 10px  15px;border-radius: 5px;margin-bottom:20px;width: 100%;">
                                                 <div class="col-md-12">
                                                     <div class="form-group col-md-12">
                                                         <label for="chance_weight">机遇</label>
@@ -371,7 +371,7 @@
                                             </div>
                                             <br/>
                                             <!--政府-->
-                                            <div class="form-group " style="border: 1px solid #ccc;padding: 10px  15px;border-radius: 5px;margin-bottom:20px;">
+                                            <div class="form-group "style="border: 1px solid #ccc;padding: 10px  15px;border-radius: 5px;margin-bottom:20px;width: 100%;">
                                                 <div class="col-md-12">
                                                     <div class="form-group col-md-12">
                                                         <label for="government_weight">政府</label>
