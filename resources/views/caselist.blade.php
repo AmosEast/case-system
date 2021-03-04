@@ -44,7 +44,7 @@
                         <td>1</td><td>测试</td><td>测试</td><td>测试</td><td>非常非常棒</td>
                         <td>
                             <input class="btn btn-warning" type="button" value="修改">
-                            <input class="btn btn-error" type="button" value="删除">
+                            <input class="btn btn-danger" type="button" value="删除">
                         </td>
                         {{--                            @if(!empty($selectLists))--}}
                         {{--                                @foreach($selectLists as $selectList)--}}
