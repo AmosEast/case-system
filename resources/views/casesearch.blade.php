@@ -16,9 +16,9 @@
                                     <li>
                                         <a href="#select-mode" class="nav-header" data-toggle="collapse" style="font-size: 1.3em; padding-left: 0;">模式选择<span class="glyphicon glyphicon-collapse-down"></span></a>
                                         <ul id="select-mode" class="nav nav-list collapse">
-                                            <div class="raw">
-                                                <div class="form-group">
-                                                    <div>
+                                            <div class="form-group " style="border: 1px solid #ccc;padding: 10px  15px;border-radius: 5px;margin-bottom:20px;width: 100%;">
+                                                <div class="col-md-12">
+                                                    <div class="form-group col-md-12">
                                                         <label for="case_mode">请选择模式</label>
                                                         <select name="case_mode" id="case_mode" class="form-control">
                                                             <option value="1">产业链延伸型</option>
@@ -395,7 +395,7 @@
                                         <a href="#case-threshold" class="nav-header" data-toggle="collapse" style="font-size: 1.3em; padding-left: 0;">阙值输入<span class="glyphicon glyphicon-collapse-down"></span></a>
                                         <ul id="case-threshold" class="nav nav-list collapse">
                                             <!--阙值-->
-                                            <div class="form-group "style="border: 1px solid #ccc;padding: 10px  15px;border-radius: 5px;margin-bottom:20px;width: 100%;">
+                                            <div class="form-group " style="border: 1px solid #ccc;padding: 10px  15px;border-radius: 5px;margin-bottom:20px;width: 100%;">
                                                 <div class="col-md-12">
                                                     <div class="form-group col-md-12">
                                                         <label for="threshold">阙值</label>
