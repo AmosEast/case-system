@@ -25,15 +25,14 @@
                         <li><a href="javascript:void(0)" onclick="changeMainPage('{{ route('casesearch.index') }}')"><span style="margin-left: 23%;">案例检索</span></a></li>
                     </ul>
                 </li>
-{{--                <li>--}}
-{{--                    <a href="#system-manage" class="nav-header" data-toggle="collapse" style="font-size: 1.3em;"><span class="glyphicon glyphicon-cog"></span> &nbsp;&nbsp;&nbsp;系统管理</a>--}}
-{{--                    <ul id="system-manage" class="nav nav-list collapse" style="font-size: 1.1em;">--}}
-{{--                        <li><a href="javascript:void(0)" ><span style="margin-left: 23%;">流程管理</span></a></li>--}}
-{{--                        <li><a href="javascript:void(0)" ><span style="margin-left: 23%;">角色管理</span></a></li>--}}
-{{--                        <li><a href="javascript:void(0)" ><span style="margin-left: 23%;">权限管理</span></a></li>--}}
-{{--                        <li><a href="javascript:void(0)" ><span style="margin-left: 23%;">用户管理</span></a></li>--}}
-{{--                    </ul>--}}
-{{--                </li>--}}
+                <li>
+                    <a href="#system-manage" class="nav-header" data-toggle="collapse" style="font-size: 1.3em;"><span class="glyphicon glyphicon-cog"></span> &nbsp;&nbsp;&nbsp;系统管理</a>
+                    <ul id="system-manage" class="nav nav-list collapse" style="font-size: 1.1em;">
+                        <li><a href="javascript:void(0)" ><span style="margin-left: 23%;">使用帮助</span></a></li>
+                        <li><a href="javascript:void(0)" ><span style="margin-left: 23%;">政策管理</span></a></li>
+                        <li><a href="javascript:void(0)" ><span style="margin-left: 23%;">用户管理</span></a></li>
+                    </ul>
+                </li>
             </ul>
         </div>
     </div>
