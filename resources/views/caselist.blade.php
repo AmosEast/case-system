@@ -30,8 +30,8 @@
                             <input type="text" class="form-control" id="case_mode" name="case_mode" placeholder="案例模式">
                         </div>
                         <button type="submit" class="btn btn-primary">&nbsp;搜&nbsp;索&nbsp;</button>
-			<br/><br/>
-                        <a href="javascript:void(0);" class="btn btn-warning btn-sm" onclick="popIframeWithCloseFunc('添加案例', '', '675px', '535px', clickXFunc)">添加案例</a>
+                        <br/><br/>
+                        <a href="javascript:void(0);" class="btn btn-info" onclick="popIframeWithCloseFunc('添加案例', '', '675px', '535px', clickXFunc)">添加案例</a>
                     </form>
                 </div>
             </div>
