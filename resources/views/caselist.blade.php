@@ -44,11 +44,11 @@
                         @if(!empty($caseList))
                             @foreach($caseList as $caseItem)
                                 <tr>
-                                    <td>{{ $caseItem ->id_name }}</td>
-                                    <td>{{ $caseItem ->name }}</td>
-                                    <td>{{ $caseItem ->lacation }}</td>
-                                    <td>{{ $caseItem ->alias }}</td>
-                                    <td>{{ $caseItem ->intra }}</td>
+                                    <td>{{ $caseItem['id'] }}</td>
+                                    <td>{{ $caseItem['name'] }}</td>
+                                    <td>{{ $caseItem['location'] }}</td>
+                                    <td>{{ $caseItem['alias'] }}</td>
+                                    <td>{{ $caseItem['intra'] }}</td>
                                     <td>
                                         <input class="btn btn-warning" type="button" value="修改">
                                         <input class="btn btn-danger" type="button" value="删除">
