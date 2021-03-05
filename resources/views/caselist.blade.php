@@ -48,7 +48,7 @@
                                     <td>{{ $caseItem['name'] }}</td>
                                     <td>{{ $caseItem['location'] }}</td>
                                     <td>{{ $caseItem['alias'] }}</td>
-                                    <td>{{ $caseItem['intra'] }}</td>
+                                    <td style="width: 35%;">{{ $caseItem['intra'] }}</td>
                                     <td>
                                         <input class="btn btn-warning" type="button" value="修改">
                                         <input class="btn btn-danger" type="button" value="删除">

@@ -59,9 +59,40 @@ Route::get('/caselist', function () {
 
 Route::get('/casesearch', function () {
     return view('casesearch') ->with([
-        'error' =>false,
-        'msg' =>'',
-        'selectLists' =>[]
+        'caseList' =>[
+            [
+                'id' =>'47',
+                'name' =>'唐山镇',
+                'related_industry' =>'小麦，玉米',
+                'related_subject' =>'农户、合作社、企业',
+                'mode' =>'产业链延伸型、企业带动型',
+                'similarity' =>'0.92'
+            ],
+            [
+                'id' =>'34',
+                'name' =>'南河种镇',
+                'related_industry' =>'玉米、蔬菜、药材',
+                'related_subject' =>'农户、合作社',
+                'mode' =>'产业链延伸型',
+                'similarity' =>'0.87'
+            ],
+            [
+                'id' =>'23',
+                'name' =>'姜屯镇',
+                'related_industry' =>'小麦、玉米、马铃薯、大葱',
+                'related_subject' =>'农户、合作社',
+                'mode' =>'产业链延伸型、功能拓展型',
+                'similarity' =>'0.85'
+            ],
+            [
+                'id' =>'9',
+                'name' =>'店子镇',
+                'related_industry' =>'红枣、花生',
+                'related_subject' =>'农户、企业',
+                'mode' =>'产业链延伸型、产业功能拓展型、电商引领型',
+                'similarity' =>'0.82'
+            ],
+        ]
     ]);
 })->name('casesearch.index');
 
