@@ -41,47 +41,21 @@
                         <tr>
                             <th>案例编号</th><th>案例名称</th><th>案例地点</th><th>案例称号</th><th>简要信息</th><th>操作</th>
                         </tr>
-                        <td>1</td><td>测试</td><td>测试</td><td>测试</td><td>非常非常棒</td>
-                        <td>
-                            <input class="btn btn-warning" type="button" value="修改">
-                            <input class="btn btn-danger" type="button" value="删除">
-                        </td>
-                        {{--                            @if(!empty($selectLists))--}}
-                        {{--                                @foreach($selectLists as $selectList)--}}
-                        {{--                                    <tr>--}}
-                        {{--                                        <td>{{ $selectList ->id }}</td>--}}
-                        {{--                                        <td>{{ $arrTasksInfo[$selectList ->task_id] ->name }}</td>--}}
-                        {{--                                        <td>{{ $selectList ->grade }}</td>--}}
-                        {{--                                        <td>{{ $arrAcademiesInfo[$selectList ->academy_id] ->name }}</td>--}}
-                        {{--                                        <td>{{ $arrMajorsInfo[$selectList ->major_id] ->name }}</td>--}}
-                        {{--                                        <td>{{ $arrCoursesInfo[$selectList ->course_id] ->name }}</td>--}}
-                        {{--                                        <td >--}}
-                        {{--                                            @if(!empty($selectList ->book_ids))--}}
-                        {{--                                                @foreach($selectList ->book_ids as $bookId)--}}
-                        {{--                                                    @if($arrBooksInfo[$bookId] ->type == \App\Models\Book::$bookForStudent)--}}
-                        {{--                                                        <a href="javascript:void(0);" onclick="popIframe('书籍信息' ,'{{ route('booksmanage.getbookinfo', ['bookId' =>$bookId]) }}', '675px', '515px')">--}}
-                        {{--                                                            {{$arrBooksInfo[$bookId] ->name}},--}}
-                        {{--                                                        </a>--}}
-                        {{--                                                    @endif--}}
-                        {{--                                                @endforeach--}}
-                        {{--                                            @endif--}}
-                        {{--                                        </td>--}}
-                        {{--                                        <td>--}}
-                        {{--                                            @if(!empty($selectList ->book_ids))--}}
-                        {{--                                                @foreach($selectList ->book_ids as $bookId)--}}
-                        {{--                                                    @if($arrBooksInfo[$bookId] ->type == \App\Models\Book::$bookForTeacher)--}}
-                        {{--                                                        <a href="javascript:void(0);" onclick="popIframe('书籍信息' ,'{{ route('booksmanage.getbookinfo', ['bookId' =>$bookId]) }}', '675px', '515px')">--}}
-                        {{--                                                            {{$arrBooksInfo[$bookId] ->name}},--}}
-                        {{--                                                        </a>--}}
-                        {{--                                                    @endif--}}
-                        {{--                                                @endforeach--}}
-                        {{--                                            @endif--}}
-                        {{--                                        </td>--}}
-                        {{--                                        <td>{{ $arrUsersInfo[$selectList ->selector_id] ->name }}</td>--}}
-                        {{--                                        <td>{{ $selectStatusMeaning[$selectList ->status] }}</td>--}}
-                        {{--                                    </tr>--}}
-                        {{--                                @endforeach--}}
-                        {{--                            @endif--}}
+                        @if(!empty($caseList))
+                            @foreach($caseList as $caseItem)
+                                <tr>
+                                    <td>{{ $caseItem ->id_name }}</td>
+                                    <td>{{ $caseItem ->name }}</td>
+                                    <td>{{ $caseItem ->lacation }}</td>
+                                    <td>{{ $caseItem ->alias }}</td>
+                                    <td>{{ $caseItem ->intra }}</td>
+                                    <td>
+                                        <input class="btn btn-warning" type="button" value="修改">
+                                        <input class="btn btn-danger" type="button" value="删除">
+                                    </td>
+                                </tr>
+                            @endforeach
+                        @endif
                     </table>
                 </div>
                 <div align="right">
