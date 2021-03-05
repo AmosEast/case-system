@@ -427,7 +427,7 @@
                                     <td>{{ $caseItem['related_subject'] }}</td>
                                     <td>{{ $caseItem['mode'] }}</td>
                                     <td>{{ $caseItem['similarity'] }}</td>
-                                    <td>
+                                    <td style="width: 30%;">
                                         <input class="btn btn-primary" type="button" value="案例查看">
                                         <input class="btn btn-success" type="button" value="相似度查看">
                                         <input class="btn btn-info" type="button" value="采纳">
