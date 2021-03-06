@@ -13,6 +13,7 @@
     <!-- Scripts -->
     <script src="{{ asset('js/jquery-3.5.1.min.js') }}" defer></script>
     <script src="{{ asset('js/bootstrap.min.js') }}" defer></script>
+    <script src="{{ asset('js/layer/layer.js') }}" defer></script>
 @yield('js-link-part')
 
 <!-- Fonts -->
