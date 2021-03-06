@@ -101,7 +101,7 @@ Route::get('/caseinfo/{caseId}', function () {
     return view('caseinfo') ->with([
         'error' =>0,
         'msg' =>'success',
-        'caseinfo' =>[
+        'case' =>[
             'township_problem' =>'1、农业与二三产业融合度低，结合程度不紧密，农业附加值低；2、利益联结松散，合作方式简单，多采用订单式农业，股份制比例不高；3、劳动力素质有待提高，劳动力素质不高，抑制了要素融合；',
             'related_industry' =>'以小麦为核心，带动种子、农药、肥料、农产品加工、销售等行业的发展',
             'mode' =>'产业链延伸型',
