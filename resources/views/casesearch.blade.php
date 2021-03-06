@@ -428,7 +428,7 @@
                                     <td>{{ $caseItem['mode'] }}</td>
                                     <td>{{ $caseItem['similarity'] }}</td>
                                     <td style="width: 30%;">
-                                        <input class="btn btn-primary" type="button" value="案例查看">
+                                        <input onclick="popIframe('案例信息' ,'{{ route('caseinfo.index', ['caseId' =>$caseItem['id']]) }}', '675px', '515px')" class="btn btn-primary" type="button" value="案例查看">
                                         <input class="btn btn-success" type="button" value="相似度查看">
                                         <input class="btn btn-info" type="button" value="采纳">
                                         <input class="btn btn-warning" type="button" value="输出">
