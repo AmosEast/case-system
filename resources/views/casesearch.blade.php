@@ -107,7 +107,7 @@
                                                     </div>
                                                     <span>&nbsp;&nbsp;</span>
                                                     <div class="form-group col-md-5" style="margin: 8px 0">
-                                                        <label for="consumption_level">城乡居民人均消费支出</label>
+                                                        <label for="consumption_level">农村居民人均消费支出</label>
                                                         <input type="text" class="form-control" id="consumption_level" name="consumption_level">
                                                     </div>
                                                 </div>
@@ -126,16 +126,16 @@
                                                     </div>
                                                     <span>&nbsp;&nbsp;</span>
                                                     <div class="form-group col-md-5" style="margin: 8px 0">
-                                                        <label for="sec_industry_proportion">第二产业占比</label>
+                                                        <label for="sec_industry_proportion">非耕地面积占比</label>
                                                         <input type="text" class="form-control" id="sec_industry_proportion" name="sec_industry_proportion">
                                                     </div>
                                                     <span>&nbsp;&nbsp;</span>
                                                     <div class="form-group col-md-5" style="margin: 8px 0">
-                                                        <label for="thr_industry_proportion">第三产业占比</label>
+                                                        <label for="thr_industry_proportion">第二、第三产业支撑情况</label>
                                                         <input type="text" class="form-control" id="thr_industry_proportion" name="thr_industry_proportion">
                                                     </div>
                                                     <div class="form-group col-md-5" style="margin: 8px 0">
-                                                        <label for="infrastructure_2">基础设施</label>
+                                                        <label for="infrastructure_2">公共设施</label>
                                                         <input type="text" class="form-control" id="infrastructure_2" name="infrastructure_2">
                                                     </div>
                                                 </div>
@@ -207,7 +207,7 @@
                                                     </div>
                                                     <span>&nbsp;&nbsp;</span>
                                                     <div class="form-group col-md-5" style="margin: 8px 0">
-                                                        <label for="policies_number">相关政策数</label>
+                                                        <label for="policies_number">相关政策支撑情况</label>
                                                         <input type="text" class="form-control" id="policies_number" name="policies_number">
                                                     </div>
                                                 </div>
@@ -284,7 +284,7 @@
                                                         <input type="text" class="form-control" id="econom_weighty" name="economy_weight">
                                                     </div>
                                                     <div class="form-group col-md-5" style="margin: 8px 0">
-                                                        <label for="consumption_level_weight">城乡居民人均消费支出</label>
+                                                        <label for="consumption_level_weight">农村居民人均消费支出</label>
                                                         <input type="text" class="form-control" id="consumption_level_weight" name="consumption_level_weight">
                                                     </div>
                                                 </div>
@@ -304,15 +304,15 @@
                                                         <input type="text" class="form-control" id="fir_industry_proportion_weight" name="fir_industry_proportion_weight">
                                                     </div>
                                                     <div class="form-group col-md-5"  style="margin: 8px 0">
-                                                        <label for="sec_industry_proportion_weight">第二产业占比</label>
+                                                        <label for="sec_industry_proportion_weight">非耕地面积占比</label>
                                                         <input type="text" class="form-control" id="sec_industry_proportion_weight" name="sec_industry_proportion_weight">
                                                     </div>
                                                     <div class="form-group col-md-5" style="margin: 8px 0">
-                                                        <label for="thr_industry_proportion_weight">第三产业占比</label>
+                                                        <label for="thr_industry_proportion_weight">第二、第三产业支撑情况</label>
                                                         <input type="text" class="form-control" id="thr_industry_proportion_weight" name="thr_industry_proportion_weight">
                                                     </div>
                                                     <div class="form-group col-md-5" style="margin: 8px 0">
-                                                        <label for="infrastructure_2_weight">基础设施</label>
+                                                        <label for="infrastructure_2_weight">公共设施</label>
                                                         <input type="text" class="form-control" id="infrastructure_2_weight" name="infrastructure_2_weight">
                                                     </div>
                                                 </div>
@@ -384,7 +384,7 @@
                                                         <input type="text" class="form-control" id="committees_density_weight" name="committees_density_weight">
                                                     </div>
                                                     <div class="form-group  col-md-5" style="margin: 8px 0">
-                                                        <label for="policies_number_weight">相关政策数</label>
+                                                        <label for="policies_number_weight">相关政策支撑情况</label>
                                                         <input type="text" class="form-control" id="policies_number_weight" name="policies_number_weight">
                                                     </div>
                                                 </div>
