@@ -178,7 +178,7 @@
                                                     </div>
                                                     <span>&nbsp;&nbsp;</span>
                                                     <div class="form-group col-md-5" style="margin: 8px 0">
-                                                        <label for="town_government_distance">距镇政府距离</label>
+                                                        <label for="town_government_distance">距县政府距离</label>
                                                         <input type="text" class="form-control" id="town_government_distance" name="town_government_distance">
                                                     </div>
                                                     <span>&nbsp;&nbsp;</span>
@@ -356,7 +356,7 @@
                                                         <input type="text" class="form-control" id="municipal_government_distance_weight" name="municipal_government_distance_weight">
                                                     </div>
                                                     <div class="form-group col-md-5" style="margin: 8px 0">
-                                                        <label for="town_government_distance_weight">距镇政府距离</label>
+                                                        <label for="town_government_distance_weight">距县政府距离</label>
                                                         <input type="text" class="form-control" id="town_government_distance_weight" name="town_government_distance_weight">
                                                     </div>
                                                     <div class="form-group col-md-5" style="margin: 8px 0">
